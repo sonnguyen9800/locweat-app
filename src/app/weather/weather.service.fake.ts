@@ -20,7 +20,6 @@ export class WeatherServiceFake implements IWeatherService {
   getCurrentWeather(city: string, country: string): Observable<ICurrentWeather> {
     return of(this.fakeWeather);
   }
-
+  
 
 }
-s

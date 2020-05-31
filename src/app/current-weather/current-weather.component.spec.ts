@@ -4,6 +4,8 @@ import { CurrentWeatherComponent } from './current-weather.component';
 
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 
+import { WeatherServiceFake } from '../weather/weather.service.fake';
+import { WeatherService } from '../weather/WeatherService';
 describe('CurrentWeatherComponent', () => {
   let component: CurrentWeatherComponent;
   let fixture: ComponentFixture<CurrentWeatherComponent>;
@@ -13,7 +15,9 @@ describe('CurrentWeatherComponent', () => {
       declarations: [ CurrentWeatherComponent ],
       imports: [
 	HttpClientTestingModule
-      ]
+      ],
+      providers: [
+	{  provide: WeatherService, useClass: WeatherServiceFake}],
     })
     .compileComponents();
   }));
