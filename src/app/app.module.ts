@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CurrentWeatherComponent } from './current-weather/current-weather.component';
 
-import { WeatherService } from './weather/weather.service';
+import { WeatherService } from "./weather/WeatherService";
 
 import { HttpClientModule } from '@angular/common/http';
 
