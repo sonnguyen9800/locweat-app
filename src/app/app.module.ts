@@ -9,6 +9,13 @@ import { WeatherService } from "./weather/WeatherService";
 
 import { HttpClientModule } from '@angular/common/http';
 
+import { MaterialModule } from './material.module';
+
+
+// Animations and gesture support on mobile devices
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import 'hammerjs'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +24,9 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MaterialModule,
   ],
   providers: [
     WeatherService,    
