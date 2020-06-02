@@ -1,8 +1,16 @@
 
-<form>
+<form style="margin-bottom: 3rem;">
     <mat-form-field>
+	
+	<mat-error *ngIf="search.invalid">
+	    {{getErrorMessage()}}
+	</mat-error>
+	
 	<mat-icon matPrefix>search</mat-icon>
 	<input matInput placeholder="Enter city or zip" aria-
 	       label="City or Zip" [formControl]="search">
+
+
     </mat-form-field>
+
 </form>

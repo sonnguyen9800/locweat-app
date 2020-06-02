@@ -24,7 +24,7 @@ export interface ICurrentWeatherData {
 
 // Interface for the WeatherService itself
 export interface IWeatherService {
-  getCurrentWeather(city: string, country: string) : Observable<ICurrentWeather>
+  getCurrentWeather(search: string | number, country?: string) : Observable<ICurrentWeather>
 }
 
 

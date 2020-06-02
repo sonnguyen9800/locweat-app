@@ -1,4 +1,4 @@
-<div *ngIf="current">
+<div *ngIf="current.city != 'Unknown City'">
     <div fxLayout="row">
         <div fxFlex=66% class="mat-title no-margin">{{current.city}}, {{current.country}} </div>
         <div fxFlex class="right mat-sub-heading-2 no-margin">{{current.date | date: "fullDate" }}</div>
