@@ -8,6 +8,7 @@ This is also a project to learn Angular, the source code and idea is taken from 
 
 - clone this repository
 - run "npm install"
+- go to "src/environments/environment.ts" and fill your own API there
 - run "ng serve"
 - Enjoy the app!
 
@@ -24,7 +25,11 @@ Website: https://openweathermap.org/api
 
 ### Demostration
 
-![image](https://user-images.githubusercontent.com/45099020/83512601-a4176f80-a4fa-11ea-9e26-8d7418d16cf8.png)
+![image1](https://user-images.githubusercontent.com/45099020/83513342-d7a6c980-a4fb-11ea-95bb-7e86a9ac0156.png)
+
+![image2](https://user-images.githubusercontent.com/45099020/83513238-afb76600-a4fb-11ea-85b0-5f942e992b62.png)
+
+![image3](https://user-images.githubusercontent.com/45099020/83513310-cc539e00-a4fb-11ea-9f8f-ec1ab5547bdc.png)
 
 ## Running the tests
 

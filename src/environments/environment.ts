@@ -4,7 +4,7 @@
 
 export const environment = {
   production: true,
-  openWeatherAPI: "FILL YOUR OWN API HERE",
+  openWeatherAPI: "YOUR API HERE",
   baseUrl: 'http://',
   websiteUrl: 'api.openweathermap.org/data/2.5/weather?'
 };
