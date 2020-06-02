@@ -19,18 +19,23 @@ import 'hammerjs'
 // import Flex-layoutModule:
 import { FlexLayoutModule } from '@angular/flex-layout';
 
+// import for form components:
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CitySearchComponent } from './city-search/city-search.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    CurrentWeatherComponent
+    CurrentWeatherComponent,
+    CitySearchComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MaterialModule,
-    FlexLayoutModule
+    MaterialModule,FlexLayoutModule,
+    FormsModule, ReactiveFormsModule
   ],
   providers: [
     WeatherService,    
