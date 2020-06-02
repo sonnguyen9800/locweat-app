@@ -1,27 +1,45 @@
-# LocweatApp
+# LocWeat - or Local Weather Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
+This app allow users to see weather status of any city in the world! Excited yet?
 
-## Development server
+This is also a project to learn Angular, the source code and idea is taken from Doguhan Uluca's book (read the acknowledgements)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Getting Started
 
-## Code scaffolding
+- clone this repository
+- run "npm install"
+- run "ng serve"
+- Enjoy the app!
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+### Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- You need ng (or @angular/cli to run the app)
+- NodeJS
+- npm
+- A free API from openweathermap.org ("Current Weather Data" API), thus you need to register an account from that app.
 
-## Running unit tests
+Website: https://openweathermap.org/api
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+### Demostration
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+![image](https://user-images.githubusercontent.com/45099020/83512601-a4176f80-a4fa-11ea-9e26-8d7418d16cf8.png)
 
-## Further help
+## Running the tests
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- npm run test
+- ng test
+
+
+## Versioning
+
+1.0.0
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Books: "Angular 6 for enterprise-ready web applications" 
